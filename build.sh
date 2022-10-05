@@ -1,9 +1,5 @@
 set -ex
 
-#cd ~/dev/engine/src/flutter
-cd ~/dev/flutter-engine/engine/src/flutter/
-#git fetch upstream
-#git rebase upstream/main
 gclient sync
 cd ..
 
